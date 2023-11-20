@@ -39,6 +39,7 @@ export default class BmiCalculator extends LightningElement {
         }
     }
 
+    // Recalculate method
     recalculate(){
         this.height=''
         this.weight=''
