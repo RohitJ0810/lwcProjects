@@ -1,5 +1,6 @@
 name: Deployment to CertPrep
-on: push:
+on: 
+  push:
       paths:
         - force-app/**
 jobs:
